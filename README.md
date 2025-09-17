@@ -2,7 +2,7 @@
 
 Un sistema completo di gestione inventario sviluppato con Laravel 12, che permette la gestione completa di prodotti con sistema di autenticazione integrato.
 
-## 📋 Descrizione del Progetto
+##  Descrizione del Progetto
 
 **Gestionale-GD** è un'applicazione web moderna per la gestione dell'inventario aziendale. Offre un'interfaccia intuitiva per la creazione, modifica, visualizzazione e cancellazione dei prodotti, con un sistema di autenticazione sicuro per proteggere i dati.
 
