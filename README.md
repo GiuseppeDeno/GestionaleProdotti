@@ -6,16 +6,16 @@ Un sistema completo di gestione inventario sviluppato con Laravel 12, che permet
 
 **Gestionale-GD** è un'applicazione web moderna per la gestione dell'inventario aziendale. Offre un'interfaccia intuitiva per la creazione, modifica, visualizzazione e cancellazione dei prodotti, con un sistema di autenticazione sicuro per proteggere i dati.
 
-## ✨ Funzionalità Principali
+##  Funzionalità Principali
 
-### 🔐 Sistema di Autenticazione
+###  Sistema di Autenticazione
 - **Registrazione utenti** con validazione email
 - **Login/Logout** sicuro con sessioni
 - **Reset password** tramite email
 - **Protezione delle rotte** con middleware
 - **Verifica email** (opzionale)
 
-### 📦 Gestione Prodotti (CRUD Completo)
+###  Gestione Prodotti (CRUD Completo)
 - **Creazione prodotti** con nome, descrizione, prezzo e stock
 - **Visualizzazione lista** paginata con filtri visivi
 - **Dettaglio singolo prodotto** con informazioni complete  
@@ -23,14 +23,14 @@ Un sistema completo di gestione inventario sviluppato con Laravel 12, che permet
 - **Eliminazione prodotti** con conferma
 - **Validazione dati** completa lato server
 
-### 🎨 Interfaccia Utente
+###  Interfaccia Utente
 - **Design responsive** per desktop e mobile
 - **Interfaccia moderna** con componenti stilizzati
 - **Feedback utente** con messaggi di successo/errore
 - **Indicatori visivi** per stock basso/alto
 - **Dashboard informativa** con statistiche
 
-## 🛠️ Stack Tecnologico
+## Stack Tecnologico
 
 - **Backend**: Laravel 12 (PHP 8.2+)
 - **Frontend**: Blade Templates
@@ -40,7 +40,7 @@ Un sistema completo di gestione inventario sviluppato con Laravel 12, che permet
 - **Build Tool**: Vite
 - **Packaging**: Composer, NPM
 
-## 📋 Prerequisiti
+##  Prerequisiti
 
 - PHP 8.2 o superiore
 - Composer
@@ -48,7 +48,7 @@ Un sistema completo di gestione inventario sviluppato con Laravel 12, che permet
 - MySQL
 - Laravel Artisan serve
 
-## 🚀 Installazione
+##  Installazione
 
 ### 1. Clona il Repository
 ```bash
@@ -110,7 +110,7 @@ php artisan serve
 
 L'applicazione sarà disponibile su `http://localhost:8000`
 
-## 📁 Struttura del Progetto
+## Struttura del Progetto
 
 ```
 gestionale-gd/
@@ -145,7 +145,7 @@ gestionale-gd/
 └── README.md                         # Questo file
 ```
 
-## 🎯 Utilizzo dell'Applicazione
+##  Utilizzo dell'Applicazione
 
 ### Primo Accesso
 1. **Registra un nuovo utente** su `/register`
@@ -201,7 +201,7 @@ php artisan route:clear
 php artisan view:clear
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Funzionalità da Testare
 1. **Registrazione e Login** degli utenti
@@ -220,7 +220,7 @@ php artisan test
 php artisan test --coverage
 ```
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Tabella Users
 ```sql
@@ -243,7 +243,7 @@ php artisan test --coverage
 - created_at, updated_at (timestamps)
 ```
 
-## 🔒 Sicurezza
+##  Sicurezza
 
 ### Implementazioni di Sicurezza
 - **CSRF Protection**: Tutti i form protetti da token CSRF
@@ -281,7 +281,7 @@ composer install --no-dev --optimize-autoloader
 npm run build
 ```
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### Errori Comuni
 
@@ -317,7 +317,7 @@ php artisan route:list
 php artisan migrate:status
 ```
 
-## 🔄 Versioning
+##  Versioning
 
 Questo progetto utilizza [Semantic Versioning](https://semver.org/):
 - **MAJOR**: Cambiamenti non compatibili
