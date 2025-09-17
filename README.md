@@ -166,7 +166,7 @@ Il sistema valida automaticamente:
 - **Stock**: obbligatorio, numero intero positivo
 - **Descrizione**: opzionale, testo libero
 
-## 🔧 Configurazioni Avanzate
+##  Configurazioni Avanzate
 
 ### Opzioni di Autenticazione
 
